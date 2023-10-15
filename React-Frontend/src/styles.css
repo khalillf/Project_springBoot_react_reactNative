@@ -1,0 +1,133 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(to right, #6a597499, #9c87879c, #9c87879c, #6f597480);
+    font-family: Arial, sans-serif;
+    color: #333;
+    
+  }
+
+  .header {
+    background-image: linear-gradient(45deg, #575576, #56586e);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #931f1f;
+    text-decoration: none;
+    border: 2px solid #46313c;
+    cursor: pointer;
+    border-radius: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #4e1e2a; /* Change the background color on hover */
+    border-color: #972a2e; /* Change the border color on hover */
+  }
+  
+  
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .table th {
+    color: #292727;
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .error-message {
+    color: #ff0000;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+
+  .user-info.show {
+    position: absolute;
+    top: 10;
+    right: 50px;
+    display: -webkit-box;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+
+
+.user-info.hide {
+  display: none;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #931f1f;
+  text-decoration: none;
+  border: 2px solid #46313c;
+  cursor: pointer;
+  border-radius: 17px;
+}
+
+
+.search-input {
+  width: 15%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
